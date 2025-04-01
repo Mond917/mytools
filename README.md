@@ -14,3 +14,8 @@ NEED NEW ACCOUNT TO LOGIN
 # FACEBOOK 
 LOGIN COOKIE 🍪 
 
+# COMMAND HERE 🙂 
+rm -rf PNX
+git clone https://github.com/Gab-owen/PNX
+cd PNX
+python run.py
