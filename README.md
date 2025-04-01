@@ -15,6 +15,23 @@ NEED NEW ACCOUNT TO LOGIN
 LOGIN COOKIE 🍪 
 
 # COMMAND HERE 🙂 
+termux-setup-storage
+pkg update && pkg upgrade -y
+pkg install python -y
+pkg install git
+pip install rich
+pip install cloudscraper
+pip install bs4
+pip install colorama
+pip install fbtoolsbox
+apt install python make wget termux-exec clang libjpeg-turbo freetype -y
+env INCLUDE="$PREFIX/include" LDFLAGS=" -lm" pip install Pillow
+pip install pytesseract
+pip install fake_useragent
+pip install requests
+pip install rich
+pip install faker
+
 rm -rf PNX
 git clone https://github.com/Gab-owen/PNX
 cd PNX
