@@ -12,10 +12,7 @@ This is an illegal script. Any kind of loss, damage, harm, or crime caused by it
 ![image alt](https://github.com/Gab-owen/PNX/blob/0161c65f534c7bd4ef32ad15d2fa7d57c5bfb8cf/Screenshot_20250402_095410.JPG)
 ![image alt](https://github.com/Gab-owen/PNX/blob/0161c65f534c7bd4ef32ad15d2fa7d57c5bfb8cf/Screenshot_20250402_100310.JPG)
 
-# ⚙️ COMMAND HERE ⚙️
+# 🚨 If you are not ready to install pillow copy this
 
-rm -rf PNX
-git clone https://github.com/Gab-owen/PNX
-cd PNX
-pip install -r requirements.txt
-python run.py
+pip install python make wget termux-exec clang libjpeg-turbo freetype -y
+env INCLUDE="$PREFIX/include" LDFLAGS=" -lm" pip install Pillow
