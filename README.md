@@ -15,6 +15,6 @@ This is an illegal script. Any kind of loss, damage, harm, or crime caused by it
 
 rm -rf PNX
 git clone https://github.com/Gab-owen/PNX
-pip install -r requirements.txt
 cd PNX
+pip install -r requirements.txt
 python run.py
