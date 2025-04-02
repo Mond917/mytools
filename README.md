@@ -6,34 +6,15 @@ Use of this tool is entirely at the user's own risk. The developer is not respon
 
 This is an illegal script. Any kind of loss, damage, harm, or crime caused by it is entirely beyond the author's responsibility.
 
-# TIKTOK 
-NO LOGIN
-
-# INSTAGRAM 
-NEED NEW ACCOUNT TO LOGIN
-
-# FACEBOOK 
-LOGIN COOKIE 🍪 
+# SCREEN SHOT TOOLS
+![image alt](https://github.com/Gab-owen/PNX/blob/0161c65f534c7bd4ef32ad15d2fa7d57c5bfb8cf/Screenshot_20250402_095241.JPG)
+![image alt](https://github.com/Gab-owen/PNX/blob/0161c65f534c7bd4ef32ad15d2fa7d57c5bfb8cf/Screenshot_20250402_095410.JPG)
+![image alt](https://github.com/Gab-owen/PNX/blob/0161c65f534c7bd4ef32ad15d2fa7d57c5bfb8cf/Screenshot_20250402_100310.JPG)
 
 # COMMAND HERE 🙂 
-termux-setup-storage
-pkg update && pkg upgrade -y
-pkg install python -y
-pkg install git
-pip install rich
-pip install cloudscraper
-pip install bs4
-pip install colorama
-pip install fbtoolsbox
-apt install python make wget termux-exec clang libjpeg-turbo freetype -y
-env INCLUDE="$PREFIX/include" LDFLAGS=" -lm" pip install Pillow
-pip install pytesseract
-pip install fake_useragent
-pip install requests
-pip install rich
-pip install faker
 
 rm -rf PNX
 git clone https://github.com/Gab-owen/PNX
+pip install -r requirements.txt
 cd PNX
 python run.py
