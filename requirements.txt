@@ -8,7 +8,7 @@ pytesseract
 fake_useragent
 faker
 requests
-pytesseract
 cython
 rich
 requests-toolbelt
+pkg install git python-pip tesseract
